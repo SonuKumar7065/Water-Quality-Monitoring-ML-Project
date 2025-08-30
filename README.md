@@ -9,8 +9,11 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 - `requirements.txt` → Python dependencies  
 
 ## ✅ Week 1 Task
+- Imported required Python libraries.
 - Imported dataset `water_potability.csv`
 - Performed data exploration (info, head, describe, missing values, shape)
+- Checked dataset shape (rows × columns)
+- Saved cleaned dataset for next week’s tasks
 
 ## 🚀 How to Run
 1. Open Google Colab
