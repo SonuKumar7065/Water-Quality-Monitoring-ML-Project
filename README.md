@@ -1,65 +1,55 @@
-🌍 Water Quality Monitoring using Machine Learning
+🌍 Water Quality Monitoring – ML Internship Project
 
-This project is part of my AI/ML Internship (Week 1–X). The aim is to monitor and predict water potability using ML techniques. The dataset contains various chemical properties of water, and the target variable indicates whether water is safe to drink (1) or not safe (0).
-
-📌 Week 1 – Data Understanding & Exploration
-✅ Tasks Completed:
-
-Imported required Python libraries.
-
-Loaded dataset (water_potability.csv).
-
-Explored dataset using:
-
-.info() – Data types & memory usage
-
-.describe() – Statistical summary
-
-.isnull().sum() – Missing value check
-
-Handled missing values (replaced with mean).
-
-Visualized dataset with:
-
-Correlation Heatmap
-
-Potability Distribution (0/1)
-
-Saved cleaned dataset (cleaned_water_quality.csv) for further use.
-
-📊 Dataset Information
-
-Rows (before cleaning): 3276
-
-Columns: 10
-
-Target Variable: Potability (0 = Not Safe, 1 = Safe)
-
-🖼️ Sample Outputs
-Correlation Heatmap
-
-(Place screenshot here after running Notebook)
-
-Water Potability Distribution
-
-(Place screenshot here after running Notebook)
+This repository contains my work for the Edunet AI/ML Internship Project (2025) on Water Quality Monitoring & Pollution Control. The aim is to analyze water quality parameters and build ML models to predict whether water is safe (Potable = 1) or unsafe (Potable = 0) for human consumption.
 
 📂 Repository Structure
 📁 Water_Quality_ML_Project
- ┣ 📄 Week1_Water_Quality.ipynb   # Week 1 Notebook
- ┣ 📄 water_potability.csv        # Raw dataset
- ┣ 📄 cleaned_water_quality.csv   # Cleaned dataset
- ┗ 📄 README.md                   # Project Documentation
+ ┣ 📁 dataset/  
+ ┃ ┗ water_potability.csv  
+ ┣ 📁 notebooks/  
+ ┃ ┗ Week1_Water_Quality.ipynb  
+ ┣ 📄 requirements.txt  
+ ┗ 📄 README.md  
 
-🚀 Next Steps (Week 2)
+✅ Week 1 – Data Understanding
 
-Perform Exploratory Data Analysis (EDA) in detail (boxplots, histograms, feature distribution).
+Imported dataset water_potability.csv
 
-Train baseline ML models (Logistic Regression, Random Forest).
+Checked dataset shape (rows × columns)
 
-Evaluate with accuracy, precision, recall, F1-score.
+Performed .head(), .info(), .describe()
+
+Checked for missing values (.isnull().sum())
+
+Saved cleaned dataset for next week’s tasks
+
+🚀 How to Run
+
+Open Google Colab
+
+Upload the notebook: notebooks/Week1_Water_Quality.ipynb
+
+Upload the dataset: dataset/water_potability.csv
+
+Run all cells step by step
+
+📊 Dataset Info
+
+Rows: 3276
+
+Columns: 10
+
+Target Column: Potability (0 = Not Safe, 1 = Safe)
+
+🔮 Next Steps (Week 2 Preview)
+
+Handle missing values & clean dataset
+
+Perform detailed EDA with plots (histograms, boxplots, correlation heatmap)
+
+Prepare data for model training
 
 👨‍💻 Author
 
 Sonu Kumar
-AI/ML Internship Project – 2025
+AI/ML Internship – 2025
