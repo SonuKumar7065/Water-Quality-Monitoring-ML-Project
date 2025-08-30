@@ -1,4 +1,4 @@
-🌊 Water Quality Monitoring – AI/ML Project
+#🌊 Water Quality Monitoring – AI/ML Project
 📌 Internship Project: Environmental Monitoring & Pollution Control
 Author: Sonu Kumar
 
