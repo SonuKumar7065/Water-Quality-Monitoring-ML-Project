@@ -1,4 +1,4 @@
-# Water Quality Monitoring - ML Internship Project
+# Water Quality Monitoring - AI/ML Internship Project
 
 This repository contains my work for the Edunet AI/ML Internship Project on **Water Quality Monitoring**.
 
