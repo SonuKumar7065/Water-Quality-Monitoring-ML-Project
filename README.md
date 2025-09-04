@@ -30,7 +30,7 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
   - Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
 - Saved cleaned dataset as cleaned_water_potability.csv
 - Saved notebook as Week2_Water_Quality.ipynb.
-- 🔎 Key Insights
+- 🔎 Key Insights-
   - Dataset had missing values → imputed successfully.
   - Dataset is imbalanced → fewer potable samples compared to non-potable.
   - Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
