@@ -17,7 +17,7 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
   - .info() → dataset structure
   - .describe() → statistical summary
   - .isnull().sum() → checked missing values
-- Saved notebook as Week1_Water_Quality.ipynb.
+- Saved notebook as Week1_Water_Quality.ipynb
 
 ## ✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
 - Handled missing values in ph, Sulfate, and Trihalomethanes using mean imputation.
@@ -28,14 +28,18 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
   - Correlation heatmap
   - Count plot for potable vs non-potable water
   - Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
+- Saved cleaned dataset as cleaned_water_potability.csv
+- Saved notebook as Week2_Water_Quality.ipynb.
 - 🔎 Key Insights
-- Dataset had missing values → imputed successfully.
-- Dataset is imbalanced → fewer potable samples compared to non-potable.
-- Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
-- Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
-- Cleaned dataset is now ready for Week 3: Model Building.
+  - Dataset had missing values → imputed successfully.
+  - Dataset is imbalanced → fewer potable samples compared to non-potable.
+  - Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
+  - Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
+  - Cleaned dataset is now ready for Week 3: Model Building.
 
 ## 🚀 How to Run
-1. Open Google Colab
-2. Upload the notebook from `notebooks/Week1_Water_Quality.ipynb`
-3. Run all cells
+1. Clone this repository or download the files.
+2. Open Google Colab or Jupyter Notebook.
+3. Upload and run the notebooks from the notebooks/ folder.
+4. Install dependencies using:
+   pip install -r requirements.txt
