@@ -24,14 +24,13 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 - Correlation heatmap to check feature relationships
 - Count plot for Potable vs Non-Potable distribution
 - Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
-- Saved cleaned dataset as:
-dataset/cleaned_water_potability.csv
-🔎 Key Insights
-Dataset had missing values → imputed successfully.
-Dataset is imbalanced → fewer potable samples compared to non-potable.
-Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
-Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
-Cleaned dataset is now ready for Week 3: Model Building.
+- Saved cleaned dataset as: `dataset/cleaned_water_potability.csv`
+# 🔎 Key Insights
+- Dataset had missing values → imputed successfully.
+- Dataset is imbalanced → fewer potable samples compared to non-potable.
+- Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
+- Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
+- Cleaned dataset is now ready for Week 3: Model Building.
 
 ## 🚀 How to Run
 1. Open Google Colab
