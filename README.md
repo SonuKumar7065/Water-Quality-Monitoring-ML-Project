@@ -15,7 +15,7 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 - Checked dataset shape (rows × columns)
 - Saved cleaned dataset for next week’s tasks
 
-##✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
+## ✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
 - Handled missing values in ph, Sulfate, and Trihalomethanes using mean imputation.
 - Removed duplicate rows to ensure dataset integrity.
 - Performed exploratory data analysis (EDA) with visualizations:
