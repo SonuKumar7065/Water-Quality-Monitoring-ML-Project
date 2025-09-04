@@ -8,12 +8,16 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 - `README.md` → project documentation  
 - `requirements.txt` → Python dependencies  
 
-## ✅ Week 1 Task
+## ✅ Week 1 Task – Data Loading & Initial Exploration
 - Imported required Python libraries.
 - Imported dataset `water_potability.csv`
 - Performed data exploration (info, head, describe, missing values, shape)
 - Checked dataset shape (rows × columns)
-- Saved cleaned dataset for next week’s tasks
+- Performed basic exploration:
+  - .info() → dataset structure
+  - .describe() → statistical summary
+  - .isnull().sum() → checked missing values
+- Saved notebook as Week1_Water_Quality.ipynb.
 
 ## ✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
 - Handled missing values in ph, Sulfate, and Trihalomethanes using mean imputation.
