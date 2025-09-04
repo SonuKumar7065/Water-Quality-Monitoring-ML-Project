@@ -21,15 +21,14 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 
 ## ✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
 - Handled missing values in ph, Sulfate, and Trihalomethanes using mean imputation.
-- Removed duplicate rows to ensure dataset integrity.
-- Performed exploratory data analysis (EDA) with visualizations:
-- Histograms for feature distributions
-- Boxplots for outlier detection
-- Correlation heatmap to check feature relationships
-- Count plot for Potable vs Non-Potable distribution
-- Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
-- Saved cleaned dataset as: `dataset/cleaned_water_potability.csv`
-# 🔎 Key Insights
+- Removed duplicate rows.
+- Performed EDA with visualizations:
+  - Histograms for feature distributions
+  - Boxplots for outlier detection
+  - Correlation heatmap
+  - Count plot for potable vs non-potable water
+  - Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
+- 🔎 Key Insights
 - Dataset had missing values → imputed successfully.
 - Dataset is imbalanced → fewer potable samples compared to non-potable.
 - Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
