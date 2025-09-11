@@ -69,11 +69,11 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 ![Top 5 Features](images/top5_features.png)  
 
 ---
+
 ### 🔹 Key Insights
 - **Random Forest** is more reliable for this dataset.  
 - **Important features**: `pH`, `Solids`, `Sulfate`, and `Trihalomethanes`.  
 - Dataset imbalance still affects performance; future improvements can use **SMOTE** or **Ensemble Methods**.  
-
 
 ## 🚀 How to Run
 1. Clone this repository or download the files.
