@@ -1,4 +1,0 @@
-model,accuracy,precision,recall,f1,roc_auc,confusion_png,roc_png,cv_accuracy
-RandomForest,0.6600609756097561,0.6601941747572816,0.265625,0.3788300835654596,0.663857421875,images/confusion_RandomForest.png,images/roc_RandomForest.png,0.6724678830757773
-XGBoost,0.6204268292682927,0.5181347150259067,0.390625,0.44543429844098,0.6089550781249999,images/confusion_XGBoost.png,images/roc_XGBoost.png,
-LogisticRegression,0.6097560975609756,0.0,0.0,0.0,0.5484179687499999,images/confusion_LogisticRegression.png,images/roc_LogisticRegression.png,
