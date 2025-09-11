@@ -37,6 +37,44 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
   - Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
   - Cleaned dataset is now ready for Week 3: Model Building.
 
+## ✅ Week 3: Machine Learning Models
+- Built classification models to predict **water potability**  
+
+### 📊 Models Implemented
+1. **Logistic Regression** → Baseline linear model  
+2. **Random Forest Classifier** → Non-linear, handles imbalance with `class_weight="balanced"`  
+
+### 🔹 Results
+| Model                | Accuracy | ROC-AUC |
+|-----------------------|----------|---------|
+| Logistic Regression   | ~0.63    | ~0.66   |
+| Random Forest         | ~0.72    | ~0.79   |
+
+👉 Random Forest outperforms Logistic Regression in both accuracy and AUC.  
+
+---
+
+## 📊 Model Results & Visualizations  
+
+### Confusion Matrix – Random Forest  
+![Confusion Matrix RF](images/confusion_matrix_rf.png)  
+
+### ROC Curve Comparison  
+![ROC Curve](images/roc_curve.png)  
+
+### Feature Importance  
+![Feature Importance](images/feature_importance.png)  
+
+### Top 5 Features  
+![Top 5 Features](images/top5_features.png)  
+
+---
+### 🔹 Key Insights
+- **Random Forest** is more reliable for this dataset.  
+- **Important features**: `pH`, `Solids`, `Sulfate`, and `Trihalomethanes`.  
+- Dataset imbalance still affects performance; future improvements can use **SMOTE** or **Ensemble Methods**.  
+
+
 ## 🚀 How to Run
 1. Clone this repository or download the files.
 2. Open Google Colab or Jupyter Notebook.
