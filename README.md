@@ -60,7 +60,7 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 ![Confusion Matrix RF](images/confusion_matrix_rf.png)  
 
 ### ROC Curve Comparison  
-![ROC Curve](images/roc_curve.png)  
+![ROC Curve](images/roc_curve_rf.png)  
 
 ### Feature Importance  
 ![Feature Importance](images/feature_importance.png)  
