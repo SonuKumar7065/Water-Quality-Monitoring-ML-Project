@@ -120,7 +120,7 @@ See [`results_summary.csv`](./results_summary.csv) for complete metrics.
 ## 🚀 How to Run
 1. Clone the repository  
  - ```bash
-   git clone https://github.com/<your-username>/water-quality-monitoring.git
+   git clone https://github.com/<SonuKumar7065>/water-quality-monitoring.git
    cd water-quality-monitoring
 2. Install dependencies
   - ```bash
