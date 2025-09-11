@@ -57,7 +57,19 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 
 
 ## ✅ Week 3: Machine Learning Models
-- Built classification models to predict **water potability**  
+- Built classification models to predict **water potability**
+- Implemented a **complete ML pipeline**:
+  - Train-test split with stratification  
+  - Feature scaling  
+  - Trained models: Logistic Regression, Random Forest, (optional XGBoost)  
+  - Evaluated with Accuracy, Precision, Recall, F1, ROC-AUC  
+- Generated **visualizations**:
+  - Confusion matrices  
+  - ROC curves  
+  - Model accuracy comparison  
+  - Feature importance (Random Forest)  
+- Produced a **model comparison table** and saved results to CSV  
+- Wrote final **insights and recommendations** 
 
 ### 📊 Models Implemented
 1. **Logistic Regression** → Baseline linear model  
@@ -71,7 +83,12 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 | Random Forest         | ~0.66    | ~0.66   |
 | XGBoost               | ~0.62    | ~0.55   |
 
-👉 Random Forest outperforms Logistic Regression and XGBoost in both accuracy and AUC.  
+## 📊 Results Summary
+- Models used: Logistic Regression, Random Forest, XGBoost (if installed)  
+- Metrics evaluated: Accuracy, Precision, Recall, F1, ROC-AUC  
+- Random Forest generally gave **highest accuracy** with important features identified.  
+👉 Random Forest outperforms Logistic Regression and XGBoost in both accuracy and AUC.
+See [`results_summary.csv`](./results_summary.csv) for complete metrics.
 
 ---
 
@@ -100,8 +117,30 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 - Dataset imbalance still affects performance; future improvements can use **SMOTE** or **Ensemble Methods**.  
 
 ## 🚀 How to Run
-1. Clone this repository or download the files.
-2. Open Google Colab or Jupyter Notebook.
-3. Upload and run the notebooks from the notebooks/ folder.
-4. Install dependencies using:
-   pip install -r requirements.txt
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/<your-username>/water-quality-monitoring.git
+   cd water-quality-monitoring
+2. Install dependencies
+  - ```bash
+    pip install -r requirements.txt
+3. Ensure dataset is available:
+   - Place cleaned_water_potability.csv inside dataset/
+   - Or upload it in Colab if running there
+4. Run the notebook
+   - Open notebooks/Week3_Water_Quality_Final.ipynb in Jupyter/Colab
+   - Run all cells to train models and generate results
+
+## 🔧 Requirements
+1. Python 3.8+
+2. Libraries: pandas, numpy, scikit-learn, seaborn, matplotlib, (optional: xgboost)
+3. Install all at once:
+   - ```bash
+     pip install -r requirements.txt
+
+## 📝 Final Insights
+- Best Model: Random Forest (highest accuracy & stable performance)
+- Key Features: Certain chemical properties (pH, Sulfate, Hardness, etc.) strongly influence water potability
+- Future Work: Try SMOTE for class imbalance, hyperparameter tuning, and ensemble methods to improve recall
+
+## 👨‍💻 Author: Sonu Kumar
