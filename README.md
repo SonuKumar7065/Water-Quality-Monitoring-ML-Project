@@ -19,23 +19,35 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
   - .isnull().sum() → checked missing values
 - Saved notebook as Week1_Water_Quality.ipynb
 
-## ✅ Week 2 Task – Data Cleaning & Exploratory Data Analysis (EDA)
-- Handled missing values in ph, Sulfate, and Trihalomethanes using mean imputation.
-- Removed duplicate rows.
-- Performed EDA with visualizations:
-  - Histograms for feature distributions
-  - Boxplots for outlier detection
-  - Correlation heatmap
-  - Count plot for potable vs non-potable water
-  - Comparative boxplots (e.g., pH vs Potability, Hardness vs Potability)
-- Saved cleaned dataset as cleaned_water_potability.csv
-- Saved notebook as Week2_Water_Quality.ipynb.
-- 🔎 Key Insights-
-  - Dataset had missing values → imputed successfully.
-  - Dataset is imbalanced → fewer potable samples compared to non-potable.
-  - Some features (pH, Hardness, Sulfate) show clear impact on water Potability.
-  - Outliers exist in some columns (e.g., Solids, Hardness) which may affect model performance.
-  - Cleaned dataset is now ready for Week 3: Model Building.
+## ✅ Week 2: Data Preprocessing & Cleaning  
+
+During Week 2, the focus was on **cleaning and preparing the dataset** for machine learning.  
+
+### 🔹 Key Steps
+- Handled **missing values** in critical features:  
+  - `ph` → filled using mean imputation  
+  - `Sulfate` → filled using mean imputation  
+  - `Trihalomethanes` → filled using mean imputation  
+- Removed **duplicate records** to ensure dataset quality  
+- Converted dataset into a **clean and analysis-ready version**  
+
+### 🔹 Exploratory Data Analysis (EDA)
+- Generated **summary statistics** (`.describe()`)  
+- Created **distribution plots** (histograms, boxplots)  
+  ![Distribution of Features](images/distribution.png)  
+
+- Used a **heatmap correlation matrix** to identify relationships between features  
+  ![Correlation Heatmap](images/heatmap.png)  
+
+### 🔹 Output
+- Saved cleaned dataset as:  
+  - 📂 `dataset/cleaned_water_potability.csv`  
+
+### 🔹 Insights
+- Significant missing values were present initially, especially in `ph`, `Sulfate`, and `Trihalomethanes`.  
+- Correlation analysis showed moderate relationships between some features.  
+- Dataset imbalance was observed (`Potability = 0` has more samples than `Potability = 1`).  
+
 
 ## ✅ Week 3: Machine Learning Models
 - Built classification models to predict **water potability**  
