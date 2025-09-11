@@ -61,15 +61,17 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 
 ### 📊 Models Implemented
 1. **Logistic Regression** → Baseline linear model  
-2. **Random Forest Classifier** → Non-linear, handles imbalance with `class_weight="balanced"`  
+2. **Random Forest Classifier** → Non-linear, handles imbalance with `class_weight="balanced`
+3. **XGBoost Classifier** → Gradient boosting, robust to overfitting, handles missing values and class imbalance with `scale_pos_weight`
 
 ### 🔹 Results
 | Model                | Accuracy | ROC-AUC |
 |-----------------------|----------|---------|
-| Logistic Regression   | ~0.63    | ~0.66   |
-| Random Forest         | ~0.72    | ~0.79   |
+| Logistic Regression   | ~0.61    | ~0.55   |
+| Random Forest         | ~0.66    | ~0.66   |
+| XGBoost               | ~0.62    | ~0.55   |
 
-👉 Random Forest outperforms Logistic Regression in both accuracy and AUC.  
+👉 Random Forest outperforms Logistic Regression and XGBoost in both accuracy and AUC.  
 
 ---
 
@@ -80,6 +82,9 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 
 ### ROC Curve Comparison  
 ![ROC Curve](images/roc_curve_rf.png)  
+
+### Model Accuracy Comparison  
+![Model Accuracy Comparison](images/model_accuracy.png)  
 
 ### Feature Importance  
 ![Feature Importance](images/feature_importance.png)  
