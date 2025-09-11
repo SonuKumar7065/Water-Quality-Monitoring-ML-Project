@@ -1,6 +1,6 @@
 # Water Quality Monitoring - AI/ML Internship Project
 
-This repository contains my work for the Edunet AI/ML Internship Project on **Water Quality Monitoring**.
+This repository contains my work for the AICTE Edunet AI/ML Internship Project on **Water Quality Monitoring**.
 
 ## 📂 Repository Structure
 - `dataset/` → contains water_potability.csv dataset  
@@ -61,7 +61,7 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 
 ### 📊 Models Implemented
 1. **Logistic Regression** → Baseline linear model  
-2. **Random Forest Classifier** → Non-linear, handles imbalance with `class_weight="balanced`
+2. **Random Forest Classifier** → Non-linear, handles imbalance with `class_weight="balanced"`
 3. **XGBoost Classifier** → Gradient boosting, robust to overfitting, handles missing values and class imbalance with `scale_pos_weight`
 
 ### 🔹 Results
