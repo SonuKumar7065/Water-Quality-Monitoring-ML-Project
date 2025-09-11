@@ -8,16 +8,23 @@ This repository contains my work for the Edunet AI/ML Internship Project on **Wa
 - `README.md` → project documentation  
 - `requirements.txt` → Python dependencies  
 
-## ✅ Week 1 Task – Data Loading & Initial Exploration
-- Imported required Python libraries.
-- Imported dataset `water_potability.csv`
-- Performed data exploration (info, head, describe, missing values, shape)
-- Checked dataset shape (rows × columns)
-- Performed basic exploration:
-  - .info() → dataset structure
-  - .describe() → statistical summary
-  - .isnull().sum() → checked missing values
-- Saved notebook as Week1_Water_Quality.ipynb
+## ✅ Week 1: Data Understanding  
+
+During Week 1, the focus was on **importing and exploring the dataset** to understand its structure and quality.  
+
+### 🔹 Key Steps
+- Imported the dataset `water_potability.csv` from Kaggle  
+- Checked dataset structure using:  
+  - `.info()` → data types & non-null values  
+  - `.describe()` → summary statistics  
+  - `.isnull().sum()` → missing value counts  
+  - `.shape` → dataset dimensions
+
+### 🔹 Insights
+- The dataset contains **9 water quality features** + `Potability` (target variable).  
+- Missing values were detected in `ph`, `Sulfate`, and `Trihalomethanes`.  
+- Dataset size: **3276 rows × 10 columns**.  
+
 
 ## ✅ Week 2: Data Preprocessing & Cleaning  
 
