@@ -88,6 +88,7 @@ During Week 2, the focus was on **cleaning and preparing the dataset** for machi
 - Metrics evaluated: Accuracy, Precision, Recall, F1, ROC-AUC  
 - Random Forest generally gave **highest accuracy** with important features identified.  
 👉 Random Forest outperforms Logistic Regression and XGBoost in both accuracy and AUC.
+
 See [`results_summary.csv`](./results_summary.csv) for complete metrics.
 
 ---
@@ -118,7 +119,7 @@ See [`results_summary.csv`](./results_summary.csv) for complete metrics.
 
 ## 🚀 How to Run
 1. Clone the repository  
-   ```bash
+ - ```bash
    git clone https://github.com/<your-username>/water-quality-monitoring.git
    cd water-quality-monitoring
 2. Install dependencies
