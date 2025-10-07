@@ -120,8 +120,8 @@ See [`results_summary.csv`](./results_summary.csv) for complete metrics.
 ## 🚀 How to Run
 1. Clone the repository  
  - ```bash
-   git clone https://github.com/<SonuKumar7065>/water-quality-monitoring.git
-   cd water-quality-monitoring
+   git clone https://github.com/SonuKumar7065/Water-Quality-Monitoring-ML-Project.git
+   cd Water-Quality-Monitoring-ML-Project
 2. Install dependencies
   - ```bash
     pip install -r requirements.txt
