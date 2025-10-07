@@ -129,7 +129,7 @@ See [`results_summary.csv`](./results_summary.csv) for complete metrics.
    - Place cleaned_water_potability.csv inside dataset/
    - Or upload it in Colab if running there
 4. Run the notebook
-   - Open notebooks/Week3_Water_Quality_Final.ipynb in Jupyter/Colab
+   - Open notebooks/Week3+Week2+Week1_Water_Quality_Monitoring.ipynb in Jupyter/Colab
    - Run all cells to train models and generate results
 
 ## 🔧 Requirements
